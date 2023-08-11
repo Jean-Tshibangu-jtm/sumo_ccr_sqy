@@ -1,0 +1,12 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+  <vType id="t_jm_m"
+         impatience="0.25"
+         jmCrossingGap="3"
+         jmIgnoreKeepClearTime="300"
+         />
+  
+</routes>
+
+

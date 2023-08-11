@@ -1,0 +1,15 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+  <vType id="t_lcm_e_m"
+         laneChangeModel="LC2013"
+         lcStrategic="0.5"
+         lcCooperative="0.0"
+         lcSpeedGain="0.5"
+         lcKeepRight="0.25"
+         lcOvertakeRight="0.0"
+         lcOpposite="0.25"
+         />
+  
+</routes>
+

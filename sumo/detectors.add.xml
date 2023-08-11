@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-06-29 22:33:39 by Eclipse SUMO netedit Version v1_16_0+0702-8919c10b8c1
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Detectors -->
+    <inductionLoop id="d_rp1_entry_1" lane="689277284#2_0" pos="0.98" period="60.00" file="outputs/data_debit/d_rp1_entries.xml" friendlyPos="1"/>
+    <inductionLoop id="d_rp1_entry_2" lane="1024920555#1_1" pos="1.75" period="60.00" file="outputs/data_debit/d_rp1_entries.xml" friendlyPos="1"/>
+    <inductionLoop id="d_rp1_entry_3" lane="1024920555#1_0" pos="1.47" period="60.00" file="outputs/data_debit/d_rp1_entries.xml" friendlyPos="1"/>
+    <inductionLoop id="d_rp1_entry_4" lane="881567590#1_1" pos="2.39" period="60.00" file="outputs/data_debit/d_rp1_entries.xml" friendlyPos="1"/>
+    <inductionLoop id="d_rp1_entry_5" lane="881567590#1_0" pos="2.52" period="60.00" file="outputs/data_debit/d_rp1_entries.xml" friendlyPos="1"/>
+    <inductionLoop id="d_rp1_entry_6" lane="34778584#1_0" pos="0.76" period="60.00" file="outputs/data_debit/d_rp1_entries.xml" friendlyPos="1"/>
+    <inductionLoop id="d_rp1_entry_7" lane="689277290#1_0" pos="1.88" period="60.00" file="outputs/data_debit/d_rp1_entries.xml" friendlyPos="1"/>
+
+    <inductionLoop id="d_rp1_exit_1" lane="966303574#0_0" pos="1.04" period="60.00" file="outputs/data_debit/d_rp1_exits.xml" friendlyPos="1"/>
+    <inductionLoop id="d_rp1_exit_2" lane="689277286#0_0" pos="2.47" period="60.00" file="outputs/data_debit/d_rp1_exits.xml" friendlyPos="1"/>
+    <inductionLoop id="d_rp1_exit_3" lane="689277285#0_0" pos="1.15" period="60.00" file="outputs/data_debit/d_rp1_exits.xml" friendlyPos="1"/>
+    <inductionLoop id="d_rp1_exit_4" lane="23748691#0_0" pos="1.77" period="60.00" file="outputs/data_debit/d_rp1_exits.xml" friendlyPos="1"/>
+    <inductionLoop id="d_rp1_exit_5" lane="689277289#0_0" pos="1.79" period="60.00" file="outputs/data_debit/d_rp1_exits.xml" friendlyPos="1"/>
+
+    <inductionLoop id="d_rp4_entry_1" lane="254360502#3_2" pos="5.15" period="60.00" file="outputs/data_debit/d_rp4_entries.xml" friendlyPos="1"/>
+    <inductionLoop id="d_rp4_entry_2" lane="254360502#3_1" pos="5.93" period="60.00" file="outputs/data_debit/d_rp4_entries.xml" friendlyPos="1"/>
+    <inductionLoop id="d_rp4_entry_3" lane="292643665#4_1" pos="2.05" period="60.00" file="outputs/data_debit/d_rp4_entries.xml" friendlyPos="1"/>
+    <inductionLoop id="d_rp4_entry_4" lane="23749115#2_2" pos="3.08" period="60.00" file="outputs/data_debit/d_rp4_entries.xml" friendlyPos="1"/>
+    <inductionLoop id="d_rp4_entry_5" lane="23749115#2_1" pos="2.76" period="60.00" file="outputs/data_debit/d_rp4_entries.xml" friendlyPos="1"/>
+    <inductionLoop id="d_rp4_entry_6" lane="28000507#1_2" pos="2.58" period="60.00" file="outputs/data_debit/d_rp4_entries.xml" friendlyPos="1"/>
+    <inductionLoop id="d_rp4_entry_7" lane="28000507#1_1" pos="2.87" period="60.00" file="outputs/data_debit/d_rp4_entries.xml" friendlyPos="1"/>
+    <inductionLoop id="d_rp4_entry_8" lane="292643665#4_2" pos="1.38" period="60.00" file="outputs/data_debit/d_rp4_entries.xml" friendlyPos="1"/>
+        
+    <inductionLoop id="d_rp4_exit_1" lane="23749256#0_1" pos="0.87" period="60.00" file="outputs/data_debit/d_rp4_exits.xml" friendlyPos="1"/>
+    <inductionLoop id="d_rp4_exit_2" lane="23749256#0_2" pos="0.85" period="60.00" file="outputs/data_debit/d_rp4_exits.xml" friendlyPos="1"/>
+    <inductionLoop id="d_rp4_exit_3" lane="22650417#0_1" pos="1.98" period="60.00" file="outputs/data_debit/d_rp4_exits.xml" friendlyPos="1"/>
+    <inductionLoop id="d_rp4_exit_4" lane="22650417#0_2" pos="2.59" period="60.00" file="outputs/data_debit/d_rp4_exits.xml" friendlyPos="1"/>
+    <inductionLoop id="d_rp4_exit_5" lane="28000506#0_1" pos="2.04" period="60.00" file="outputs/data_debit/d_rp4_exits.xml" friendlyPos="1"/>
+    <inductionLoop id="d_rp4_exit_6" lane="22650422#0_1" pos="0.54" period="60.00" file="outputs/data_debit/d_rp4_exits.xml" friendlyPos="1"/>
+    <inductionLoop id="d_rp4_exit_7" lane="22650422#0_2" pos="1.00" period="60.00" file="outputs/data_debit/d_rp4_exits.xml" friendlyPos="1"/>
+
+
+    <laneAreaDetector id="z_ach1_mgp_to_rp1_1" lanes="1024920554_2 689277287#1_2 1024920555#0_2 1024920555#1_1" pos="2.67" endPos="3.06" period="60.00" file="outputs/data_zones/z_ach1_mgp_to_rp1.xml"/>
+    <laneAreaDetector id="z_ach1_mgp_to_rp1_2" lanes="1024920554_1 689277287#1_1 1024920555#0_1 1024920555#1_0" pos="0.62" endPos="3.00" period="60.00" file="outputs/data_zones/z_ach1_mgp_to_rp1.xml"/>
+
+    <laneAreaDetector id="z_r2ps_to_ach1_mgp" lanes="814259719_0 689277284#0_0 689277288#0_0 689277288#1_0 689277288#2_0 881567591#0_0 881567591#1_0 881567591#2_0" pos="4.87" endPos="13.13" period="60.00" file="outputs/data_zones/z_r2ps_to_ach1_mgp.xml"/>
+    <laneAreaDetector id="z_sl_rp1_to_ach1_mgp" lanes="689277284#1_0 689277284#2_0 689277281#7_0 689277286#0_0 689277286#1_0 881567591#0_1 881567591#1_1 881567591#2_1" pos="0.46" endPos="12.75" period="60.00" file="outputs/data_zones/z_r2ps_to_ach1_mgp.xml"/>
+    <laneAreaDetector id="z_r2ps_to_sl_rp1" lane="814259719_1" pos="5.35" length="1035.27" period="60.00" file="outputs/data_zones/z_r2ps_to_ach1_mgp.xml" friendlyPos="1"/>
+
+    
+    <laneAreaDetector id="z_grgn_to_rp1" lanes="34778584#0_1 34778584#1_0" pos="1.00" endPos="1.13" period="60.00" file="outputs/data_zones/z_grgn_to_rp1.xml"/>
+    <laneAreaDetector id="z_plsr_to_rp1" lanes="570426100#3_1 22674672_1 591402342#0_1 591402342#1_0 689277290#0_0 689277290#1_0" pos="0.95" endPos="3.55" period="60.00" file="outputs/data_zones/z_plsr_to_rp1.xml"/>
+
+    <laneAreaDetector id="z_r2pn_to_rp1_0" lanes="689277282_0 881567590#0_2 881567590#1_1" pos="2.28" endPos="4.75" period="60.00" file="outputs/data_zones/z_r2pn_to_rp1.xml"/>
+    <laneAreaDetector id="z_r2pn_to_rp1_1" lanes="1107701847.173_1 881567590#0_1 881567590#1_0" pos="2.77" endPos="4.89" period="60.00" file="outputs/data_zones/z_r2pn_to_rp1.xml"/>
+
+    
+    <laneAreaDetector id="z_ccb_to_rp4_1" lanes="102165688#0_0 102165688#1_0 1136268465_1 190876198_1 28000507#1_2" pos="186.08" endPos="4.39" period="60.00" file="outputs/data_zones/z_ccb_to_rp4.xml"/>
+    <laneAreaDetector id="z_ccb_to_rp4_2" lanes="1136268465_0 190876198_0 28000507#1_1" pos="0.38" endPos="4.43" period="60.00" file="outputs/data_zones/z_ccb_to_rp4.xml"/>
+
+    <laneAreaDetector id="z_rp3_to_rp4_1" lanes="22650432_0 254360502#1_0 254360502#2_0 254360502#3_1" pos="0.93" endPos="6.13" period="60.00" file="outputs/data_zones/z_rp3_to_rp4.xml"/>
+    <laneAreaDetector id="z_rp3_to_rp4_2" lanes="22650432_1 254360502#1_1 254360502#2_1 254360502#3_2" pos="1.89" endPos="6.10" period="60.00" file="outputs/data_zones/z_rp3_to_rp4.xml"/>
+
+    <laneAreaDetector id="z_rp5_to_rp4_1" lanes="23749115#0_1 23749115#1_1 23749115#2_1" pos="0.82" endPos="5.13" period="60.00" file="outputs/data_zones/z_rp5_to_rp4.xml"/>
+    <laneAreaDetector id="z_rp5_to_rp4_2" lanes="23749115#0_2 23749115#1_2 23749115#2_2" pos="1.18" endPos="5.52" period="60.00" file="outputs/data_zones/z_rp5_to_rp4.xml"/>
+
+    <laneAreaDetector id="z_rp2_to_rp3_1" lanes="542209565_0 136182032#1_0" pos="0.48" endPos="0.30" period="60.00" file="outputs/data_zones/z_rp2_to_rp3.xml"/>
+    <laneAreaDetector id="z_rp2_to_rp3_2" lanes="542209565_1 136182032#1_1" pos="0.71" endPos="0.30" period="60.00" file="outputs/data_zones/z_rp2_to_rp3.xml"/>
+
+    <laneAreaDetector id="z_rp4_to_rp3_1" lanes="22650422#0_1 22650422#1_1 22650422#2_1" pos="0.38" endPos="117.26" period="60.00" file="outputs/data_zones/z_rp4_to_rp3.xml"/>
+    <laneAreaDetector id="z_rp4_to_rp3_2" lanes="22650422#0_2 22650422#1_2 22650422#2_2 22650422#3_1 22650422#4_0" pos="0.40" endPos="11.06" period="60.00" file="outputs/data_zones/z_rp4_to_rp3.xml"/>
+</additional>

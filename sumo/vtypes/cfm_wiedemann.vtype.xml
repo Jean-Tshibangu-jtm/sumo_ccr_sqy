@@ -1,0 +1,13 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+  <vType id="t_cfm_wm"
+         carFollowModel="Wiedemann"
+         estimation="0.5"
+         security="0.5"
+         />
+  
+</routes>
+
+
+

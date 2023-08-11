@@ -1,0 +1,10 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+  <vType id="t_pd_a"
+         vClass="pedestrian"
+         speedFactor="norm(1,0.1)"
+         impatience="1"
+         />
+
+</routes>

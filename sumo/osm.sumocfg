@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-03-02 22:30:42 by Eclipse SUMO sumo Version v1_16_0+0702-8919c10b8c1
+,detectors.add.xml
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml.gz"/>
+        <route-files value="vtypes/passengers_globals.vtype.xml, vtypes/trucks_globals.vtype.xml, vtypes/cfm_krauss.vtype.xml, vtypes/cfm_wiedemann.vtype.xml, vtypes/jm_aggressive.vtype.xml, vtypes/jm_moderate.vtype.xml, vtypes/lcm_erdmann_aggressive.vtype.xml, vtypes/lcm_erdmann_keep_right.vtype.xml, vtypes/lcm_erdmann_moderate.vtype.xml, vtypes/pedestrian_aggressive.vtype.xml, vtypes/pedestrian_moderate.vtype.xml, osm.passenger.trips.xml, osm.truck.trips.xml, vehicular_incoming_flows.rou.xml, vehicular_outgoing_flows.rou.xml, pedestrian_flows.rou.xml"/>
+        <additional-files value="edges.add.xml, detectors.add.xml"/>	
+    </input>
+     
+    <processing>
+      <ignore-route-errors value="true"/>
+    </processing>
+    
+    <routing>
+      <device.rerouting.adaptation-steps value="18"/>
+      <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+    
+    <report>
+      <verbose value="true"/>
+      <duration-log.statistics value="true"/>
+      <no-step-log value="true"/>
+    </report>
+    
+    <gui_only>
+      <gui-settings-file value="osm.view.xml"/>
+    </gui_only> 
+    
+    <junction-taz value="true"/>
+
+    <extrapolate-departpos value="true"/>
+    
+</configuration>

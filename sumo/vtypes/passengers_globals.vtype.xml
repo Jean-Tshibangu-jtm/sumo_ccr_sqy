@@ -1,0 +1,18 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+  <vType id="t_pg"
+         vClass="passenger"
+         accel="2.6"
+         decel="4.5"
+         emergencyDecel="9.0"
+         length="5"
+         maxSpeed="55.55"
+         minGap="2.5"
+         sigma="0.5"
+         speedFactor="normc(1,0.1,0.2,2)"
+         />
+  
+</routes>
+
+<!-- tau="1" -->

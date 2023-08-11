@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+  <personFlow id="pf_r2ps_to_mgp" type="t_pd_a" color="red" begin="0.00" end="3600.00" period="exp(0.03)">
+    <personTrip from="E1" to="1084069664#1" lines="ANY"/>
+  </personFlow>
+
+  <personFlow id="pf_mgp_to_r2ps" type="t_pd_a" color="red" begin="0.00" end="3600.00" period="exp(0.02)">
+    <personTrip from="1084069664#1" to="E1" lines="ANY"/>
+  </personFlow>
+  
+  <personFlow id="pf_ach1_to_mgp_1" type="t_pd_a" color="red" begin="0.00" end="3600.00" period="exp(0.03)">
+    <personTrip from="E5" to="1084069664#3" lines="ANY"/>
+  </personFlow>
+  
+  <personFlow id="pf_mgp_to_ach1_1" type="t_pd_a" color="red" begin="0.00" end="3600.00" period="exp(0.03)">
+    <personTrip from="1084069664#2" to="E5" lines="ANY"/>
+  </personFlow>
+   
+  <personFlow id="pf_ach1_to_mgp_2" type="t_pd_a" color="red" begin="0.00" end="3600.00" period="exp(0.02)">
+    <personTrip to="E6" from="E47" lines="ANY"/>
+  </personFlow>
+
+  <personFlow id="pf_mgp_to_ach1_2" type="t_pd_a" color="red" begin="0.00" end="3600.00" period="exp(0.02)">
+    <personTrip from="E6" to="E47" lines="ANY"/>
+  </personFlow>
+
+  <personFlow id="pf_kfc_to_mgp" type="t_pd_a" color="red" begin="0.00" end="3600.00" period="exp(0.03)">
+    <personTrip to="E49" from="103541112#0" lines="ANY"/>
+  </personFlow>
+  
+  <personFlow id="pf_mgp_to_kfc" type="t_pd_a" color="red" begin="0.00" end="3600.00" period="exp(0.02)">
+    <personTrip from="E49" to="103541112#0" lines="ANY"/>
+  </personFlow>
+  
+  <personFlow id="pf_kfc_to_ikia" type="t_pd_a" color="red" begin="0.00" end="3600.00" period="exp(0.02)">
+    <personTrip from="103541133" to="E46" lines="ANY"/>
+  </personFlow>
+  
+  <personFlow id="pf_ikia_to_kfc" type="t_pd_a" color="red" begin="0.00" end="3600.00" period="exp(0.02)">
+    <personTrip to="103541133" from="E46" lines="ANY"/>
+  </personFlow>
+  
+  <personFlow id="pf_nike_to_ikia" type="t_pd_a" color="red" begin="0.00" end="3600.00" period="exp(0.04)">
+    <personTrip from="807804126" to="E40" lines="ANY"/>
+  </personFlow>
+  
+  <personFlow id="pf_ikia_to_nike" type="t_pd_a" color="red" begin="0.00" end="3600.00" period="exp(0.04)">
+    <personTrip to="807804126" from="E40" lines="ANY"/>
+  </personFlow>
+
+  <personFlow id="pf_alpha_to_nike" type="t_pd_a" color="red" begin="0.00" end="3600.00" period="exp(0.02)">
+    <personTrip from="807804123#0" to="E16" lines="ANY"/>
+  </personFlow>
+  
+  <personFlow id="pf_nike_to_alpha" type="t_pd_a" color="red" begin="0.00" end="3600.00" period="exp(0.02)">
+    <personTrip to="807804123#0" from="E16" lines="ANY"/>
+  </personFlow>
+
+  <personFlow id="pf_ikia_to_alpha" type="t_pd_a" color="red" begin="0.00" end="3600.00" period="exp(0.01)">
+    <personTrip from="E14" to="E41" lines="ANY"/>
+  </personFlow>
+  
+  <personFlow id="pf_alpha_to_ikia" type="t_pd_a" color="red" begin="0.00" end="3600.00" period="exp(0.01)">
+    <personTrip to="E14" from="E41" lines="ANY"/>
+  </personFlow>
+
+  <personFlow id="pf_nike_to_but" type="t_pd_a" color="red" begin="0.00" end="3600.00" period="exp(0.02)">
+    <personTrip from="807804126" to="22650412#5" lines="ANY"/>
+  </personFlow>
+  
+  <personFlow id="pf_but_to_nike" type="t_pd_a" color="red" begin="0.00" end="3600.00" period="exp(0.02)">
+    <personTrip to="807804126" from="22650412#5" lines="ANY"/>
+  </personFlow>
+
+  <personFlow id="pf_bus_to_alpha" type="t_pd_a" color="red" begin="0.00" end="3600.00" period="exp(0.01)">
+    <personTrip from="22650417#3" to="E50" lines="ANY"/>
+  </personFlow>
+  
+  <personFlow id="pf_alpha_to_bus" type="t_pd_a" color="red" begin="0.00" end="3600.00" period="exp(0.01)">
+    <personTrip to="22650417#3" from="E50" lines="ANY"/>
+  </personFlow>
+
+  <personFlow id="pf_aldi_to_onation" type="t_pd_m" color="red" begin="0.00" end="3600.00" period="exp(0.02)">
+    <personTrip from="22650378#0" to="E51" lines="ANY"/>
+  </personFlow>
+  
+  <personFlow id="pf_onation_to_aldi" type="t_pd_m" color="red" begin="0.00" end="3600.00" period="exp(0.02)">
+    <personTrip to="22650378#0" from="E51" lines="ANY"/>
+  </personFlow>
+
+  <personFlow id="pf_bus_to_onation" type="t_pd_m" color="red" begin="0.00" end="3600.00" period="exp(0.02)">
+    <personTrip from="E53" to="E52" lines="ANY"/>
+  </personFlow>
+  
+  <personFlow id="pf_onation_to_bus" type="t_pd_m" color="red" begin="0.00" end="3600.00" period="exp(0.02)">
+    <personTrip to="E53" from="E52" lines="ANY"/>
+  </personFlow>
+
+  <personFlow id="pf_onation_1" type="t_pd_m" color="red" begin="0.00" end="3600.00" period="exp(0.02)">
+    <personTrip from="E54" to="E55" lines="ANY"/>
+  </personFlow>
+
+  <personFlow id="pf_onation_1_opp" type="t_pd_m" color="red" begin="0.00" end="3600.00" period="exp(0.02)">
+    <personTrip from="E55" to="E54" lines="ANY"/>
+  </personFlow>
+
+  <personFlow id="pf_onation_2" type="t_pd_m" color="red" begin="0.00" end="3600.00" period="exp(0.01)">
+    <personTrip from="E56" to="E57" lines="ANY"/>
+  </personFlow>
+  
+  <personFlow id="pf_onation_2_opp" type="t_pd_m" color="red" begin="0.00" end="3600.00" period="exp(0.01)">
+    <personTrip from="E57" to="E56" lines="ANY"/>
+  </personFlow>
+</routes>
